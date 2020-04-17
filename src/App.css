@@ -1,38 +1,87 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  background-color: rgb(0, 255, 191);
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  border: 1px  solid rgb(100,100,100);
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 0px 1px 10px rgb(71,71,71);
+  width: 90%;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.search-bar:hover {
+  box-shadow: 0px 5px 20px rgb(71,71,71);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.search-button{
+  box-shadow: 0px 1px 10px rgb(71,71,71);
+  background-color: white;
+  border: 1px  solid rgb(150,150,150);
+  padding: 10px 20px;
+  color: black;
+  vertical-align: auto;
+  transition: all 0.2s ease-in-out;
+  border-radius: 0px 10px 10px 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.search-button:hover {
+  box-shadow: 0px 5px 20px rgb(71,71,71);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.change-button{
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgb(71,71,71);
+  border: 1px  solid rgb(100,100,100);
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  /* margin: 10px; */
+  width: 40%;
+  transition: all 0.2s ease-in-out;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
 }
 
-.App-link {
-  color: #61dafb;
+.change-button:hover {
+  box-shadow: 0px 5px 20px rgb(71,71,71);
+  transition: box-shadow 0.2s ease-in;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  background-image: url("chevronTeal.gif");
+  /* border: 1px solid; */
+  width: 98%;
+  margin: auto;
+  box-shadow: 0px 5px 20px rgb(71,71,71);
+}
+
+.spaced{
+  margin: 2%;
 }
