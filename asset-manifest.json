@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/recipe-generator/static/css/main.830dd698.chunk.css",
+    "main.js": "/recipe-generator/static/js/main.c1c41c63.chunk.js",
+    "main.js.map": "/recipe-generator/static/js/main.c1c41c63.chunk.js.map",
+    "runtime-main.js": "/recipe-generator/static/js/runtime-main.96de2913.js",
+    "runtime-main.js.map": "/recipe-generator/static/js/runtime-main.96de2913.js.map",
+    "static/js/2.6d7f4ea1.chunk.js": "/recipe-generator/static/js/2.6d7f4ea1.chunk.js",
+    "static/js/2.6d7f4ea1.chunk.js.map": "/recipe-generator/static/js/2.6d7f4ea1.chunk.js.map",
+    "index.html": "/recipe-generator/index.html",
+    "precache-manifest.304919cc2b26706cfc12a73a5c5c0b65.js": "/recipe-generator/precache-manifest.304919cc2b26706cfc12a73a5c5c0b65.js",
+    "service-worker.js": "/recipe-generator/service-worker.js",
+    "static/css/main.830dd698.chunk.css.map": "/recipe-generator/static/css/main.830dd698.chunk.css.map",
+    "static/js/2.6d7f4ea1.chunk.js.LICENSE.txt": "/recipe-generator/static/js/2.6d7f4ea1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/recipe-generator/static/media/chevronTeal.f52bcbd8.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96de2913.js",
+    "static/js/2.6d7f4ea1.chunk.js",
+    "static/css/main.830dd698.chunk.css",
+    "static/js/main.c1c41c63.chunk.js"
+  ]
+}
